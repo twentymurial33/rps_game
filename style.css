@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&family=Asap:ital,wght@0,300;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background: white;
+    padding:20px;
+}
+
+body{
+    background-color: #24272e;
+}
+
+header>h1{
+    color:#25272e;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons{
+    margin:50px 0;
+    text-align:center ;
+}
+
+.rpsButton{
+    display:inline-block;
+    border:5px solid white;
+    border-radius:20%;
+    padding:15px;
+    margin:0 15px;
+    background-color: #4CAF50;
+}
+
+.resultsContainer{
+    display: grid;
+    flex: 1;
+    margin-top: 12vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#endGame{
+  background-color: grey;
+   margin-left: 300px;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
